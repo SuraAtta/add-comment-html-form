@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Comment Form</title>
+        <style>
+           .Comment-Box{
+            border: 1px solid #abe0f3;
+            margin: 50px 0;
+            padding: 10px 20px;
+        }
+        .Comment-Box h3{
+            text-align: left;
+        }
+        .comment-form input{
+            width: 100%;
+            padding: 10px;
+            margin: 15px 0;
+            box-sizing: border-box;
+            border: none;
+            outline: none;
+            background: rgb(185, 216, 241);
+        }
+        .comment-form textarea{
+            width: 100%;
+            padding: 10px;
+            margin: 15px 0;
+            box-sizing: border-box;
+            border: none;
+            outline: none;
+            background: rgb(185, 216, 241);
+        }
+        .comment-form button{
+            margin: 10px 0;
+        }
+              .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:#368ff4;
+    border: 1px solid #368ff4;
+    padding: 12px 34px;
+    font-size: 13px;
+    background:transparent ;
+    position: relative;
+    cursor: pointer;
+        }
+         .hero-btn:hover{
+    border: 1px solid  #368ff4;
+    background:  #368ff4;
+    transition: 1s;
+        }
+        </style>
+    </head>
+<body>
+ <div class="Comment-Box">
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                      <input type="text" placeholder="Enter Name">
+                      <input type="email" placeholder="Enter Email">
+                      <textarea rows="5" placeholder="Your Comment"></textarea>
+                          <button type="submit" class="hero-btn">Post Comment</button>
+                </form>
+ </div>
+</body>
